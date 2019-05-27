@@ -68,7 +68,8 @@
     .w3-container {
         width: 95%;
         margin: 0 auto;
-        background-color: springgreen;
+        background-color: white;
+        border: 1px solid black;
     }
     .w3-container p {
         background-color: white;
@@ -80,8 +81,8 @@
         justify-content: center;
     }
     .w3-card-4 {
-        background-color: blue;
-        border: 10px solid red;
+        background-color: white;
+        border: 10px solid black;
         border-radius: 30px;
         z-index: 1;
     }
