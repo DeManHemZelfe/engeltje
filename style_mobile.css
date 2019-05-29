@@ -69,7 +69,10 @@
         width: 95%;
         margin: 0 auto;
         background-color: white;
-        border: 1px solid black;
+        /*border: 1px solid black;*/
+    }
+    .p_tekst {
+        border-bottom: 2px solid black;
     }
     .w3-container p {
         background-color: white;
