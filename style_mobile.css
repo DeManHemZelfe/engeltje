@@ -130,11 +130,19 @@
 
     /* stijlregels voor browserschermen ≥ 1024px */
     body {
-        background-color: black;
+        background-color: white;
         color: white;
     }
+    .container_container {
+        background-color: red;
+        display: flex;
+    }
+    .w3-container {
+        background-color: white;
+        color: black;
+    }
     .photo {
-        width: 50%;
+        width: 100%;
     }
 
 
