@@ -134,7 +134,7 @@
         color: white;
     }
     .container_container {
-        background-color: red;
+        background-color: white;
         display: flex;
     }
     .w3-container {
@@ -143,6 +143,41 @@
     }
     .photo {
         width: 100%;
+    }
+    .mobile-container {
+        /*max-width: 480px;*/
+        margin: auto;
+        background-image: url(https://source.unsplash.com/1600x900);
+        height: 640px;
+        color: white;
+        border-radius: 10px;
+    }
+    .tekst {
+
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333333;
+        position: relative;
+    }
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        justify-content: center;
+        font-size: 17px;
+        justify-items: center;
+        background-color: gray;
+        /* display: block; */
+        display: grid;
+
+    }
+    #myLinks {
+        display: grid;
+        background-color: green;
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: auto auto ;
     }
 
 
