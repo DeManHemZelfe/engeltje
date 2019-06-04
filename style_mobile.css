@@ -178,10 +178,29 @@
         width: 80%;
         margin: 0 auto;
         grid-template-columns: auto auto ;
-        border: red 10px solid;
-        border-radius: 21px;
+        border: black 10px solid;
+        border-radius: 5px;
     }
 
 
 }
+.div_om_active {
+    margin: 0 auto;
+    width: 40%;
+    /*background-color: gray;*/
+}
+
+#active {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    background-color: gray;
+    border: gray 2px solid;
+    border-radius: 50px;
+    /* padding: 0px; */
+}
+
 
