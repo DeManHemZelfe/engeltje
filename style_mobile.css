@@ -178,6 +178,8 @@
         width: 80%;
         margin: 0 auto;
         grid-template-columns: auto auto ;
+        border: red 10px solid;
+        border-radius: 21px;
     }
 
 
