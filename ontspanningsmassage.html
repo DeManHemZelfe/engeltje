@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="style_mobile.css" rel="stylesheet">
+    <link href="massage.css" rel="stylesheet">
+
 </head>
 <body>
-<h1>Ontspanningsmassage</h1>
+
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+
+
+        <p class="tekst">Ontspanningsmassage</p>
+        <div id="myLinks">
+            <a href="massage.html">Massage's</a>
+            <a href="huisregels.html">Huisregels</a>
+            <a href="#news">Afspraak</a>
+            <a href="revieuws.html">revieuws</a>
+            <a href="#contact">Webshop</a>
+            <a href="#about">Contact</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+
+    </div>
+
+    <div style="padding-left:16px">
+        <h3>Titel</h3>
+        <p>Wij bieden lekkere massages aan</p>
+        <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+    </div>
+
+    <!-- End smartphone / tablet look -->
+</div>
+<br><br>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "grid") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "grid";
+        }
+    }
+</script>
+
 
 </body>
 </html>
