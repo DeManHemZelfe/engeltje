@@ -156,10 +156,13 @@
     .tekst {
 
     }
+
     .topnav {
         overflow: hidden;
         background-color: #333333;
         position: relative;
+
+        width: 100%;
     }
     .topnav a {
         color: white;
@@ -242,18 +245,7 @@
         margin: 0 auto;
     }
 
-
-
-
-
-
-
-
-
 }
-
-
-
 
 
 
@@ -276,4 +268,13 @@
     /* padding: 0px; */
 }
 
+
+.fa-user {
+    background-color: #4CAF50;
+    display: block;
+    position: absolute;
+    color: red;
+
+
+}
 
